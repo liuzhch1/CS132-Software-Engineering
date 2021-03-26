@@ -19,5 +19,5 @@ Finish the requirement document according to the IEEE standard.
 DuanXin:  
 assist the other two members to specify the requirement of the elevator,think about practical user cases.
 LiuZhicheng:  
-think about user cases. Observe how the vending machine below the dormitory works. Find the design and working principle of the vending machine on the Internet.
+think about user cases. Go to the School of Life to experience a similar elevator.
 
