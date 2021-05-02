@@ -1,25 +1,25 @@
-# Team 0 Project 1 Week 9 Report
+# Team 0 Project 1 Week 10 Report
 Participants:  XuZehao DuanXin LiuZhicheng
 Meeting Date:  2021.4.9
 Project Leader: (The name of the student who’s in charge of the requirement) XuZehao
 ## Summary
 Things finished since last meeting
 XuZehao:
-Make some modifications.
+Consider more details.
 DuanXin:
-Keep track of the requirement details of the process.
+Get familiar with UPPAAL.
 LiuZhicheng:
-Read the requirements document carefully and make a preliminary idea.
+Learn to use matlab to draw user interface.
 
 
 ## Questions prepared for the instructor team
 
 ## Action Items (Plan for the next week):
 XuZehao:
-Consider more details.
+Make some adjustment to the requirement document.
 DuanXin:
-Get familiar with UPPAAL.
+Get familiar with UPPAAL. Keep track of the requirement details of the process.
 LiuZhicheng:
-Learn how to use Matlab in order to initial user reference version.
+Start to make a preliminary model for the second consultation.
 
 
