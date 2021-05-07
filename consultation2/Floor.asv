@@ -1,0 +1,29 @@
+classdef Floor
+    properties
+        floor
+        upBotton
+        dwBotton
+    end
+    
+    methods
+        function obj = Floor(num)
+            obj.floor = num;
+            if num == 0
+                obj.upBotton = -1;
+                obj.dwBotton = 0;
+            elseif num == 3
+                
+                obj.dwBotton = -1;
+            else
+                obj.upBotton = 0;
+                obj.dwBotton = 0;
+        end
+        
+        function outputArg = method1(obj,inputArg)
+            %METHOD1 此处显示有关此方法的摘要
+            %   此处显示详细说明
+            outputArg = obj.Property1 + inputArg;
+        end
+    end
+end
+
