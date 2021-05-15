@@ -4,6 +4,7 @@ classdef FloorDoor < handle
         side
         state % true for open
         safe % true for nobody in the door
+        dtime
     end
     
     methods
@@ -12,14 +13,22 @@ classdef FloorDoor < handle
             obj.state = false;
             obj.safe = true;
             obj.side = side;
+            obj.dtime = 2;
         end
         
         function obj = open(obj)
-            obj.state = 1;
+            if obj.safe == true
+                obj.state = true;
+                obj.dtime = 2;
+            end
         end
         
         function obj = close(obj)
-            obj.state = 0;
+            if obj.safe == ture
+                obj.state = false;
+            else
+                error("people in the door")
+            end
         end
     end
 end
